@@ -6,40 +6,80 @@
   <title>New Century Drywall | Calgary</title>
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="wrap nav-row">
+      <div class="brand">
+  <div class="brand-row">
+    <!-- subtle logo mark -->
+    <svg class="brand-mark" viewBox="0 0 120 40" aria-hidden="true">
+      <path d="M5 30 C35 5, 75 5, 115 10" fill="none" stroke="#D8763C" stroke-width="6" stroke-linecap="round"/>
+      <path d="M10 32 C40 12, 78 12, 110 16" fill="none" stroke="#F4B361" stroke-width="4" stroke-linecap="round"/>
+    </svg>
 
-  <!-- HERO -->
-  <header class="hero">
-    <div class="wrap">
-      <h1>NEW CENTURY DRYWALL</h1>
-      <p>Complete Drywall Services</p>
+    <div class="brand-text">
+      <div class="brand-name">NEW CENTURY DRYWALL</div>
+      <div class="brand-sub">Mudding • Taping • Finishing</div>
+    </div>
+  </div>
+</div>
 
-      <p>Calgary &amp; Surrounding Areas</p>
-      <p>(587) 228-5998</p>
-      <p>newcenturydrywall@gmail.com</p>
 
-      <a class="btn" href="#contact">Request a Quote</a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#work">Work</a>
+        <a href="#contact" class="btn btn-small">Get a Quote</a>
+      </nav>
     </div>
   </header>
 
-  <!-- ABOUT -->
-  <section class="section">
-    <div class="wrap">
-      <h2>About</h2>
-      <p class="lead">
-        New Century Drywall provides professional mudding, taping, and complete drywall services in Calgary and surrounding areas.
-        We’re detail-focused, reliable, and respectful of your home and timeline.
-      </p>
+  <!-- HERO -->
+  <section class="hero-modern">
+    <div class="hero-words">
+      <span>Serving Calgary &amp; Surrounding Areas</span>
+      <span>Complete Drywall Services</span>
+      <span>Mudding</span>
+      <span>Taping</span>
+      <span>Finishing</span>
+      <span>Repairs &amp; Patching</span>
+      <span>Basements</span>
+      <span>Renovations</span>
+      <span>New Builds</span>
+      <span>Clean Lines</span>
+      <span>Smooth Finish</span>
+    </div>
+
+    <div class="wrap hero-content">
+      <h1>New Century Drywall</h1>
+      <p class="hero-sub">Complete Drywall Services</p>
+      <p class="hero-sub muted">Mudding • Taping • Finishing</p>
+<p class="hero-sub muted">20+ years experience • Serving Calgary &amp; surrounding areas</p>
+
+
+      <div class="hero-actions">
+        <a class="btn light" href="#contact">Request a Quote</a>
+
+      </div>
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section class="section">
-    <div class="wrap">
+  <main class="wrap">
+    <!-- SERVICES -->
+    <section id="services" class="section">
       <h2>Services</h2>
+<p class="lead">
+  New Century Drywall is a Calgary-based drywall finishing company with over 20 years of hands-on experience.
+  We specialize in professional mudding, taping, and finishing for basements, renovations, and new builds.
+  Our work is clean, consistent, and detail-focused — with clear communication and reliable scheduling from start to finish.
+</p>
+
 
       <ul class="services">
         <li>Mudding</li>
@@ -48,65 +88,122 @@
         <li>Repairs &amp; Patching</li>
         <li>Complete Drywall Services</li>
       </ul>
-    </div>
-  </section>
+    </section>
 
-  <!-- OUR WORK / VIDEO -->
-  <section class="section">
-    <div class="wrap">
-      <h2>Our Work</h2>
+    <!-- PROCESS -->
+    <section id="process" class="section">
+      <h2>Our Process</h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <div class="step-title">Reach out</div>
+            <div class="step-text">Send a message with a few details and your timeline.</div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <div class="step-title">Walkthrough</div>
+            <div class="step-text">We confirm scope, measurements, and finish requirements.</div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <div class="step-title">Quote &amp; schedule</div>
+            <div class="step-text">You receive a clear quote and we book a time that works.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <h2>Work</h2>
 
       <div class="video">
         <div class="embed">
           <iframe
-            src="https://www.youtube-nocookie.com/embed/tmufDG3Jbi8"
-            title="Drywall mudding and taping timelapse"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+  src="https://www.youtube.com/embed/tmufDG3Jbi8?autoplay=1&mute=1&loop=1&playlist=tmufDG3Jbi8&controls=0&modestbranding=1&rel=0"
+  title="Drywall time-lapse"
+  frameborder="0"
+  allow="autoplay; encrypted-media; picture-in-picture"
+  allowfullscreen>
+</iframe>
+
         </div>
-
-        <p class="hint">
-          Short time-lapse showing our mudding and taping process.
-        </p>
+        <p class="hint">Optional time-lapse. Replace <strong>VIDEO_ID_HERE</strong> when ready.</p>
       </div>
+
+      <div class="photos">
+        <img src="images/work1.jpg" alt="Drywall work example 1">
+        <img src="images/work2.jpg" alt="Drywall work example 2">
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+<section class="section" id="trust">
+  <h2>Why homeowners choose us</h2>
+  <p class="lead small">20+ years experience • Professional finishing, clean workspaces, and reliable scheduling — start to finish.</p>
+
+
+  <div class="trust-grid">
+    <div class="trust-item">
+      <div class="trust-title">Clean & Respectful</div>
+      <div class="trust-text">We protect your space, keep the jobsite tidy, and treat your home like it’s our own.</div>
     </div>
-  </section>
 
-  <!-- CONTACT (PLACEHOLDER) -->
-  <section id="contact" class="section">
-    <div class="wrap">
-      <h2>Request a Quote</h2>
-
-      <p class="lead small">
-        Send a message and we’ll get back to you.
-      </p>
-
-      <form class="form" onsubmit="return false;">
-        <label>
-          Name
-          <input type="text" name="name" required>
-        </label>
-
-        <label>
-          Email
-          <input type="email" name="email" required>
-        </label>
-
-        <label>
-          Message
-          <textarea name="message" rows="6" required></textarea>
-        </label>
-
-        <button class="btn" type="submit">Request a Quote</button>
-
-        <p class="hint">
-          Online requests will be enabled shortly. Please call or email in the meantime.
-        </p>
-      </form>
+    <div class="trust-item">
+      <div class="trust-title">Detail-Focused Finish</div>
+      <div class="trust-text">Smooth, consistent results with sharp corners and clean lines.</div>
     </div>
-  </section>
 
+    <div class="trust-item">
+      <div class="trust-title">Clear Scheduling</div>
+      <div class="trust-text">Transparent timelines and communication so you know what’s happening next.</div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="lead small">Send a message and we’ll get back to you.</p>
+
+     <form class="form" action="https://formspree.io/f/xaqwbzjz" method="POST">
+  <label>
+    Name
+    <input name="name" type="text" required>
+  </label>
+
+  <label>
+    Email
+    <input name="_replyto" type="email" required>
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="6" required></textarea>
+  </label>
+
+  <!-- Helps prevent spam -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <!-- Redirect to a nice success state on the same page -->
+  <input type="hidden" name="_subject" value="New Century Drywall — New Website Inquiry">
+
+  <button class="btn" type="submit">Send Message</button>
+  <p class="hint">We reply as soon as possible. If you don’t hear back within 1 business day, please send another message.</p>
+</form>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">New Century Drywall • Calgary, AB</div>
+  </footer>
 </body>
 </html>
